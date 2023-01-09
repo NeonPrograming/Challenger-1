@@ -1,0 +1,116 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #F2EAE2;
+
+  }
+  
+
+main {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+  }
+
+h3 {
+    color: #212529;
+    font-family: Fraunces, serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1;
+    width: 80%;
+}
+
+p {
+    color: hsl(228, 12%, 48%);
+    font-size: 0.875rem;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 80%;
+ 
+
+}
+
+.product-head {
+    letter-spacing: 5px;
+
+}
+
+.text {
+    line-height: 1.5;
+    text-align:justify;
+
+}
+.left-image {
+    padding-left: 0;
+    display: grid;
+    width: 360px;
+}
+
+.perfume {
+    margin: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 300px;
+    height: 420px;
+}
+
+.product-price {
+    background-color: #fff ;
+    display: inline;
+}
+
+
+.discount-price {
+    display: inline;
+    padding-bottom: 30px;
+}
+
+.real-price {
+    display: inline;
+    margin: 20px;
+    text-decoration: line-through;
+}
+
+.main {
+    width: 600px;
+    height: 420px;
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+  
+    background-color: white;
+    border-radius: 1rem;
+  
+    overflow: hidden;
+    margin:  7% auto;
+
+
+}
+
+.right-text {
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.bottom {
+    padding-top: 40px;
+}
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 13px;
+    background: #ffd700;
+    padding: 10px 80px 10px 80px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #fff530;
+    text-decoration: none;
+  }
